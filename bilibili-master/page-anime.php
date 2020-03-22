@@ -12,7 +12,7 @@ get_header(); ?>
         <h1>我的追番
          <?php
             require_once ("anime_bili.php");
-            $bili=new bilibiliAnime('8142789','');
+            $bili=new bilibiliAnime('130092894',' _uuid=20B3A6A5-76CA-6B63-246C-75D58DECD94769698infoc; buvid3=10C334BC-01A8-488E-879B-2A022183237E155813infoc; sid=i0pgmg0t; DedeUserID=130092894; DedeUserID__ckMd5=5ccee398e8546910; SESSDATA=677c6144%2C1600426681%2C7f175*31; bili_jct=993f55f094cd7bee5fe31429abd6590e');
             echo "<small>当前已追".$bili->sum."部，继续加油！</small></h1></div><div class=\"bilibili\">";
             function precentage($str1,$str2)
             {

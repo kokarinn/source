@@ -38,11 +38,11 @@ botui.message.bot({
     return botui.action.button({
         delay: 1500,
         action: [{
-            text: "然后呢？(⊙_⊙)？",
+            text: "然后呢？",
             value: "and"
         },
         {
-            text: "少废话！ (╬▔皿▔)╯",
+            text: "(╬▔皿▔)╯少废话",
             value: "gg"
         }]
     })

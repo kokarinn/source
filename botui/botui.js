@@ -27,7 +27,7 @@ botui.message.bot({
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "这里是 青空へのBlog"
+        content: "这里是 青空の万事屋"
     })
 }).then(function() {
     return botui.message.bot({
@@ -86,14 +86,14 @@ var other = function() {
         return botui.action.button({
             delay: 1500,
             action: [{
-                text: "为什么叫 青空へ 呢？ ",
+                text: "为什么叫 青空の万事屋 呢？ ",
                 value: "next"
             }]
         })
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "想去广袤的蓝天与云儿一样自由自在，嗯！(✿◡‿◡)"
+            content: "万事屋嘛 emm(✿◡‿◡)，博客所写很杂，啥类型都有。都是博主喜欢的！"
         })
     }).then(function() {
         return botui.action.button({

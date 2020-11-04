@@ -27,7 +27,7 @@ botui.message.bot({
 }).then(function() {
     return botui.message.bot({
         delay: 1000,
-        content: "这里是 青空の万事屋"
+        content: "这里是 52赫兹の鯨"
     })
 }).then(function() {
     return botui.message.bot({
@@ -86,14 +86,14 @@ var other = function() {
         return botui.action.button({
             delay: 1500,
             action: [{
-                text: "为什么叫 青空の万事屋 呢？ ",
+                text: "为什么叫 52 赫兹の鯨 呢？ ",
                 value: "next"
             }]
         })
     }).then(function(res) {
         return botui.message.bot({
             delay: 1500,
-            content: "万事屋嘛 emm(✿◡‿◡)，博客所写很杂，啥类型都有。都是博主喜欢的！"
+            content: "我是与众不同的那一只o(*￣︶￣*)o"
         })
     }).then(function() {
         return botui.action.button({

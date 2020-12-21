@@ -20,7 +20,7 @@ for(var s=a.css,u=a.type,l=a.enterClass,f=a.enterToClass,p=a.enterActiveClass,d=
 /*
  * BotUI回复配置
  */
-var botui = new BotUI("fogforest");
+var botui = new BotUI("kokarinn");
 botui.message.bot({
     delay: 200,
     content: "(｡･∀･)ﾉﾞ嗨！"
